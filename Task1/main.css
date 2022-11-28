@@ -8,7 +8,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 6px; 
 }
 
 ::-webkit-scrollbar-track {
@@ -55,7 +55,6 @@ body {
   place-items: center;
   border-radius: 50rem;
   background: rgba(239, 12, 133, 0.968);
-
   box-shadow: 0 0 20px rgb(255 255 255 / 20%);
 }
 
@@ -85,7 +84,6 @@ body {
   align-items: center;
   padding: 0.3rem 1rem;
   justify-content: space-between;
-
   border-bottom: 1px solid rgb(0 0 0 / 10%);
 }
 
@@ -113,7 +111,7 @@ body {
 }
 
 .todoList .item .todoTitle {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
